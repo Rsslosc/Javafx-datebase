@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml" alignment="center" fx:controller="system.Update"
+          hgap="10" vgap="10">
+    <padding>
+        <Insets top="25" right="25" bottom="10" left="25"/>
+    </padding>
+
+    <Label text="Welcome to Update:" GridPane.columnSpan="2" stylesheets="/source/Title.css"
+           GridPane.rowIndex="0"/>
+
+
+    <Label text="Please Input Search Student Number:" GridPane.columnIndex="0" stylesheets="/source/Title.css"
+           styleClass="label-oth" GridPane.rowIndex="2"/>
+    <TextField fx:id="Number" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <HBox spacing="10" alignment="bottom_right" GridPane.columnIndex="3" GridPane.rowIndex="2">
+        <Button text="Search" onAction="#SearchButtonAction" stylesheets="/source/Title.css" styleClass="btn"/>
+    </HBox>
+
+    <Label text="Student Name:" GridPane.columnIndex="0" GridPane.rowIndex="3" stylesheets="/source/Title.css"
+           styleClass="label-oth"/>
+    <TextField fx:id="Name" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+    <Label text="Student Gender:" GridPane.columnIndex="0" GridPane.rowIndex="4" stylesheets="/source/Title.css"
+           styleClass="label-oth"/>
+    <TextField fx:id="Gender" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+    <Label text="Student Address:" GridPane.columnIndex="0" GridPane.rowIndex="5" stylesheets="/source/Title.css"
+           styleClass="label-oth"/>
+    <TextField fx:id="Address" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+
+    <Label text="Student Phone:" GridPane.columnIndex="0" GridPane.rowIndex="6" stylesheets="/source/Title.css"
+           styleClass="label-oth"/>
+    <TextField fx:id="Phone" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+
+    <Label text="Student Major:" GridPane.columnIndex="0" GridPane.rowIndex="7" stylesheets="/source/Title.css"
+           styleClass="label-oth"/>
+    <TextField fx:id="Major" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+
+
+    <HBox spacing="10" alignment="center" GridPane.columnSpan="3" GridPane.rowIndex="10">
+        <Button text="Update" onAction="#UpdateButtonAction" stylesheets="/source/Title.css" styleClass="btn"/>
+    </HBox>
+
+</GridPane>

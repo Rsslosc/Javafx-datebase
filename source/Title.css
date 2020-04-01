@@ -1,0 +1,19 @@
+.label {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(110, 110, 110);
+}
+.label-oth {
+    -fx-font-size: 20;
+    -fx-font-weight: lighter;
+    -fx-text-fill: rgb(50, 50, 50);
+}
+.btn {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-pref-width: 120;
+    -fx-pref-height: 28;
+    -fx-text-fill: rgb(100, 100, 100);
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
